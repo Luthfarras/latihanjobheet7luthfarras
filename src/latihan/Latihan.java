@@ -5,6 +5,8 @@
  */
 package latihan;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Lenovo400S
@@ -15,10 +17,26 @@ public class Latihan {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String identitas = "luthfarras / xrpl5/ 19";
+        String identitas = "Luthfarras Tresanizega / XRPL5 / 19";
         System.out.println("identitas : "+ identitas);
         
-        // TODO code application logic here
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nilai a ? ");
+        int a = scanner.nextInt();
+        
+        System.out.println("\nIF.. 1");
+        if (a < 5) System.out.println("nilai a kurang dari 5");
+        
+        System.out.println("\nIF..2");
+        if (a == 5)
+             System.out.println("nilai a sama dengan 5");
+        
+        System.out.println("\nIF.. 3");
+        if (a > 5);
+             System.out.println("isi variabel a : "+ a);
+             System.out.println("nilai a lebih dari 5");
+                
+        // TODO code application logic here4
     }
     
 }

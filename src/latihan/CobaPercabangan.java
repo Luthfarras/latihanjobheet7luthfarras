@@ -38,5 +38,12 @@ public class CobaPercabangan {
                  System.out.println("nilai a kurang dari 5");
              } else System.out.println("nilai a lebih dari atau sama dengan 5");
              
+              System.out.println("\nNested IF");
+             if (a < 7) {
+                 System.out.println("nilai a kurang dari 7");
+                 if (a < 2)
+                     System.out.println("nilai a kurang dari 2");
+                 if (a < 4)
+                     System.out.println("nilai a kurang dari 4");
     }
 }

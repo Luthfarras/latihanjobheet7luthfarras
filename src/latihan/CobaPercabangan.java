@@ -13,6 +13,9 @@ import java.util.Scanner;
  */
 public class CobaPercabangan {
     public static void main(String[] args) {
+        String identitas = "Luthfarras Tresanizega / XRPL5 / 19";
+        System.out.println("identitas : "+ identitas);
+        
         Scanner scanner = new Scanner(System.in);
         System.out.print("Nilai a ? ");
         int a = scanner.nextInt();

@@ -37,5 +37,6 @@ public class CobaPercabangan {
                  System.out.println("isi variabel a : "+ a);
                  System.out.println("nilai a kurang dari 5");
              } else System.out.println("nilai a lebih dari atau sama dengan 5");
+             
     }
 }

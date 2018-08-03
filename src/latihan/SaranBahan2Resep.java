@@ -59,7 +59,7 @@ public class SaranBahan2Resep {
                 case 3: System.out.println("Anda dapat membuat telur rebus");
                 
             }
-    }else
         System.out.println("Mohon Maaf, Pilihan tidak ditemukan," + "tidak dapat memberikan saran resep");
+}
 }
 

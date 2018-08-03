@@ -5,6 +5,8 @@
  */
 package latihan;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Lenovo400S
@@ -13,6 +15,8 @@ public class SaranBahan2Resep {
     public static void main(String[] args) {
         String identitas = "Luthfarras Tresanizega / XRPL5 / 19";
         System.out.println("Identitas :" + identitas);
+        
+        System.out.print("\nSaran Resep dari Bahan Milik Anda\n");
         
     }
     

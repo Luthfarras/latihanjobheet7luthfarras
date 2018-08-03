@@ -57,6 +57,15 @@ public class CobaPercabangan {
                  System.out.println("nilai a sama dengan 6");
              } else {
                  System.out.println("nilai a lebih dari 6");
+                 
+                 System.out.println("\nNested IF");
+             if (a < 7) {
+                 System.out.println("nilai a kurang dari 7");
+                 if (a < 2)
+                     System.out.println("nilai a kurang dari 2");
+                 if (a < 4)
+                     System.out.println("nilai a kurang dari1 4");
     }
     }
+}
 }
